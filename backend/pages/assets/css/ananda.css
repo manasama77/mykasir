@@ -1,0 +1,41 @@
+.huge{
+	font-size: 50px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+#ui-datepicker-div{
+	z-index:3000 !important;
+}
+
+#thumbnail {
+	width: 180px;
+	height: 180px;
+	background-position: center center;
+	background-size: cover;
+	-webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+	display: inline-block;
+}
+
+.dt-center {
+	text-align:center;
+}
+
+.dt-right {
+	text-align:right;
+}
+
+.dt-upper {
+	text-transform:uppercase;
+}
+
+.table-borderless td, .table-borderless th {
+	border: 0 !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius:0 0.25rem 0.25rem 0 !important;
+}

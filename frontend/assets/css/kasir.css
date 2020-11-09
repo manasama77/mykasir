@@ -1,0 +1,213 @@
+#ui-datepicker-div{
+	z-index:1000 !important;
+}
+
+.clock {
+    width: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 0px;
+    color: #fff;
+}
+
+#Date {
+    font-family: Digital, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 0 0 5px #00c6ff;
+}
+
+#Date2 {
+    width: 200px;
+    margin-top: -1px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+#Date2 li {
+    display: inline;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Digital, Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px #00c6ff;
+}
+
+#point {
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+/* Simple Animation */
+@-webkit-keyframes mymove {
+    0% {opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}
+
+50% {
+    opacity: 0;
+    text-shadow: none;
+}
+
+100% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}	
+}
+
+@-moz-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    };
+}
+
+.navbar-custom {
+	background-color:#229922;
+    color:#ffffff;
+  	border-radius:0;
+}
+
+.navbar-fixed-top {
+	border:0px;
+}
+  
+.navbar-custom .navbar-nav > li > a {
+  	color:#fff;
+  	padding-left:20px;
+  	padding-right:20px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+  background-color: #33aa33;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus, .navbar-custom .navbar-nav .open>a  { 
+  background-color: #33aa33;
+}
+
+     
+/* dropdown */
+.navbar-custom .navbar-nav .dropdown-menu  { 
+  background-color: #33aa33;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a  { 
+  color: #fff;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a:hover,.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  { 
+  color: #33aa33;
+}
+      
+.navbar-custom .navbar-brand {
+  	color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+  	background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+  	background-color:#33aa33;
+}
+
+.input-xs {
+  height: 22px;
+  padding: 2px 5px;
+  font-size: 12px;
+  line-height: 1.5; /* If Placeholder of the input is moved up, rem/modify this. */
+  border-radius: 3px;
+}
+
+.input-group-xs>.form-control,
+.input-group-xs>.input-group-addon,
+.input-group-xs>.input-group-btn>.btn {
+    height: 22px;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+@font-face {
+    font-family:Digital;
+    src: url(fonts/digital-7-webfont.woff);
+}
+
+.digital {
+	font-family: Digital;
+	letter-spacing: 5px;
+	font-size: 26px;
+	padding-top:2px;
+	text-align:right;
+	background-color:#000 !important;
+	font-weight:bold;
+	color:#229922;
+}
+
+.tooltip-inner {
+    z-index: 2000; /* A value higher than 1010 that solves the problem */
+}
+
+marquee {
+	-webkit-animation:  caption 50s linear 0s infinite;
+	font-family:Tahoma;
+	border: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #29b229;
+	-webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .5), 0px 1px 0px rgba(250, 250, 250, .2);
+	box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .5), 0px 1px 0px rgba(250, 250, 250, .2);
+	-webkit-transition: background-color 350ms;
+	-moz-transition: background-color 350ms;
+	transition: background-color 350ms;
+	overflow: hidden;
+	overflow-x:-webkit-marquee;
+	-webkit-marquee-direction: right;
+	-webkit-marquee-style: scroll;
+	-webkit-marquee-speed: normal;
+	-webkit-marquee-increment: small;
+	-webkit-marquee-repetition: 5;
+	overflow-x: marquee-line;
+	marquee-direction: forward;
+	marquee-style: loop;
+	marquee-speed: slow;
+	color:#28282a;
+}
+
+.pembayaran {
+	background-color: #000;
+	color: #fff;
+}
+
+.tooltip-inner {
+    /*max-width: 350px;*/
+    /* If max-width does not work, try using width instead */
+    width: 350px; 
+}
+
+#loading{
+	background: rgba(255, 255, 255, 0.5);
+	width:100%;
+	height:100%;
+	z-index: 999999;
+	position: fixed;
+}
+
+#img-load {
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -120px;
+	position: fixed;
+	text-align: center;
+	opacity: 1;
+}
